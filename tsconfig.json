@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "plugins": [
+      {
+        "transform": "./plugin.ts"
+      }
+    ]
+  },
+}
