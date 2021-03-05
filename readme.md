@@ -30,6 +30,9 @@ use TypeScript to check a JavaScript project, so only type checking is happening
 and no emitting. I do not need to update the statements for emitting then, just
 for the type checking phase, somehow…
 
+I asked Zoltu for help:
+https://github.com/Zoltu/typescript-transformer-append-js-extension/issues/13
+
 Currently, I am testing this on TypeScript source files to make things simple,
 because with JavaScript, I won't be using TypeScript directly, but instead thru
 a VS Code language service and testing that is a little more involved. Once I
